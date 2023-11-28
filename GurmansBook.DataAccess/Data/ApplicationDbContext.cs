@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using GurmansBooks.Models;
+using GurmansBook.Models;
 
 namespace GurmansBookStore.DataAccess.Data
 {
@@ -13,5 +13,6 @@ namespace GurmansBookStore.DataAccess.Data
             : base(options)
         {
         }
+        
     }
 }
