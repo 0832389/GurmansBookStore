@@ -1,8 +1,8 @@
 using System;
 
-namespace GurmansBookStore.Models
+namespace GurmansBookStore.Models.ViewModels
 {
-    public class ErrorViewModel
+    public class ViewModel
     {
         public string RequestId { get; set; }
 

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using GurmansBooks.Models;
 
-namespace GurmansBookStore.Data
+namespace GurmansBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
